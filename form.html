@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewort" content="width=device-width, initial=scale=1.0">
+        <link rel="stylesheet" href="form.css">
+        <title></title>
+    </head>
+    <body>
+        <div class="heading"><h1>Job Application Form</h1></div>
+        <div class="form">
+            <form>
+                 <fieldset>
+                    <legend>Register Here</legend>
+                    <label for="text" class="lbl">Candidate Name :</label>
+                    <input type="text" name="fname" placeholder="First Name" required size="30" class="cinp">
+                    <input type="text" name="fname" placeholder="Middle Name" required size="30" class="cinp">
+                    <input type="text" name="fname" placeholder="Last Name" required size="30" class="cinp"><br>
+                    <label for="text" class="lbl">Father's Name     :</label>
+                    <input type="text" name="fname" placeholder="First Name" required size="30" class="cinp">
+                    <input type="text" name="fname" placeholder="Middle Name" required size="30" class="cinp">
+                    <input type="text" name="fname" placeholder="Last Name" required size="30" class="cinp"><br>
+                    <label for="text" class="lbl">Mother's Name    :</label>
+                    <input type="text" name="fname" placeholder="First Name" required size="30" class="cinp">
+                    <input type="text" name="fname" placeholder="Middle Name" required size="30" class="cinp">
+                    <input type="text" name="fname" placeholder="Last Name" required size="30" class="cinp"><br>
+
+                    <label for="text" class="lbl">Gender                  :</label>
+                    <input type="radio" checked="checked" name="gender" value="Male" class="gndr">Male
+                    <input type="radio" checked="checked" name="gender" value="Female" class="gndr">Female
+                    <input type="radio" checked="checked" name="gender" value="other" class="gndr">Other
+
+                    <label for="text" class="lbl" id="nationality">Nationality :</label>
+                    <select name="nationality" class="nationality_child">
+                        <option value="nationality">INDIAN</option>
+                        <option value="nationality">OTHER</option>
+                    </select><br>
+
+                    <label for="text" class="lbl">Religion                :</label>
+                    <select name="religion" class="relign">
+                        <option value="religion">HINDU</option>
+                        <option value="religion">ISLAM</option>
+                        <option value="religion">SIKHISH</option>
+                        <option value="religion">CHRISTIAN</option>
+                        <option value="religion">OTHER</option>
+                    </select>
+
+                    <label for="text" class="lbl">Category:</label>
+                    <select class="categry">
+                        <option value="category">GENERAL</option>
+                        <option value="category">OBC</option>
+                        <option value="category">SC</option>
+                        <option value="category">ST</option>
+                        <option value="category">OTHER</option>
+                    </select><br>
+
+                    <label for="text" class="lbl">Date of birth         :</label>
+                    <input type="date" name="DOB" class="dbo" required>
+
+                    <label for="text" class="lbl">MObile No:</label>
+                    <input type="tel" name="Mobile" maxlength="10" class="mbl" required>
+
+                    <label for="text" class="lbl">Email id:</label>
+                    <input type="email" name="email" class="emlid" required >
+                </fieldset>
+
+                <fieldset>
+                    <legend> Address:</legend>
+                <fieldset>
+                    <legend class="p_addr"> PERMANENT ADDRESS :</legend>
+                    <label for="text" class="lbl"> Address     :</label>
+                    <input type="text" name="address" placeholder="Address LIne 1" class="add_inpt">
+                    <input type="text" name="address" placeholder="Address LIne 2" class="add_inpt"><br>
+                    <label for="text" class="lbl"> City/ Town :</label>
+                    <input type="text" name="address" placeholder="Enter your city name" class="add_inpt">
+
+                    <label for="text" class="lbl"> PS     :</label>
+                    <input type="text" name="address" placeholder="Enter your police station name" class="add_inpt"><br>
+
+                    <label for="text" class="lbl"> PO             :</label>
+                    <input type="text" name="address" placeholder="Enter your post name" class="add_inpt">
+
+                    <label for="text" class="lbl"> PIN    :</label>
+                    <input type="pin" name="address" maxlength="6" placeholder="Enter your pin code" class="add_inpt"><br>
+
+                    <label for="text" class="lbl"> District      :</label>
+                    <input type="text" name="address" placeholder="Enter your distrct name" class="add_inpt">
+
+                    <label for="text" class="lbl"> State :</label>
+                    <input type="text" name="address" placeholder="Enter your State name" class="add_inpt">
+                </fieldset>
+
+                <label for="text" class="checkbx"></label>
+                <input type="checkbox" name="checked" class="add_check"> If permanent address is as same as current address.
+                
+                <fieldset>
+                    <legend class="p_addr"> CURRENT ADDRESS :</legend>
+
+                    <label for="text" class="lbl"> Address     :</label>
+                    <input type="text" name="address" placeholder="Address LIne 1" class="add_inpt">
+                    <input type="text" name="address" placeholder="Address LIne 2" class="add_inpt"><br>
+                    <label for="text" class="lbl"> City/ Town :</label>
+                    <input type="text" name="address" placeholder="Enter your city name" class="add_inpt">
+
+                    <label for="text" class="lbl"> PS    :</label>
+                    <input type="text" name="address" placeholder="Enter your police station name" class="add_inpt"><br>
+
+                    <label for="text" class="lbl"> PO             :</label>
+                    <input type="text" name="address" placeholder="Enter your post name" class="add_inpt">
+
+                    <label for="text" class="lbl"> PIN    :</label>
+                    <input type="pin" name="address" maxlength="6" placeholder="Enter your pin code" class="add_inpt"><br>
+
+                    <label for="text" class="lbl"> District      :</label>
+                    <input type="text" name="address" placeholder="Enter your distrct name" class="add_inpt">
+
+                    <label for="text" class="lbl"> State :</label>
+                    <input type="text" name="address" placeholder="Enter your State name" class="add_inpt">
+                </fieldset>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+
+                <label for="text" class="ai_label">Are you citizen of India :</label>
+                <select name="citizen" id="citizen" class="ai-child">
+                    <option value="citizen">yes</option>
+                    <option value="citizen">No</option>
+                </select>
+                <label for="text" class="ai_label">Present Occupation(If any) :</label>
+                <select name="Occupation" id="occupation" class="ai-child">
+                    <option value="occupation">yes</option>
+                    <option value="occupation">No</option>
+                </select>
+                <label for="text" class="ai_label">Person with disabilities :</label>
+                <select name="pwd" id="pwd" class="ai-child">
+                    <option value="pwd">yes</option>
+                    <option value="pwd">No</option>
+                </select><br>
+                <label for="text" class="ai_label">Are you BPL card holder :</label>
+                <select name="bpl" id="bpl" class="ai-child">
+                    <option value="bpl">yes</option>
+                    <option value="bpl">No</option>
+                </select>
+                <label for="text" class="ai_label">Current physical situation :</label>
+                <select name="situation" id="situation" class="ai-child">
+                    <option value="situation">Cough</option>
+                    <option value="situation">Breathing problem</option>
+                    <option value="situation">Fever</option>
+                    <option value="situation">Cold</option>
+                </select>
+                <label for="text" class="ai_label">Do you have any technical skill :</label>
+                <select name="skill" id="skill" class="ai-child">
+                    <option value="skill">yes</option>
+                    <option value="skill">No</option>  
+            </fieldset>
+         </form>
+     </div>
+ </body>
+</html> 

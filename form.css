@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: repeating-linear-gradient(to top right, rgb(140, 197, 35),crimson, coral);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    width: 80vw;
+    height: 10vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.form{
+    background-color: rgba(192,192,192,0.7);
+    width: 95vh;
+    height: 470vh;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-top: 1px;
+}
+
+fieldset{
+    border: 2px solid;
+    border-color: rgb(255,255,255);
+    margin: 35px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+legend {
+    border: 2px;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+}
+
+.lbl {
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: pre;
+    font-weight: bolder;  
+}
+
+.cinp{
+    padding: 10px;
+    margin: 5px;
+    text-transform: uppercase;
+    border: radius 4px; 
+    border: none;
+}
+
+.gndr{
+    margin: 25px  ;
+}
+#nationality{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-right: 30px;
+}
+
+.nationality_child{
+    width: 200px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.relign{
+    margin-left:20px;
+    width: 200px;
+    text-transform: uppercase;
+    margin-right: 195px;
+    border-radius: 4px;
+    padding: 2px ;
+}
+
+.categry{
+    width: 200px;
+    margin-left: 300px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+.dbo{
+   width: 200px;
+   margin: 20px 100px 20px 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border-radius: 4px;
+   border: none; 
+   padding: 2px;
+}
+
+.mbl{
+    width: 200px;
+    font-size: larger;
+    padding: 3px;
+    margin-right: 100px;
+    border-radius: 4px;
+    border: none;
+}
+.emlid{
+    width: 200px;
+    font-size: larger;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    border: none;
+}
+
+.p_addr{
+    font-size: 15px;
+}
+
+.add_inpt{
+    width: 400px;
+    padding: 10px;
+    margin: 5px 40px 15px 5px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    border: none;
+}
+.checkbx{
+    color: rgb(82, 8, 8);
+    margin-left: 60px;
+    font-size: 18px;
+}
+
+.ai_label{
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: pre;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.ai-child{
+    width: 100px;
+    padding: 5px;
+    border-radius: 4px;
+}
